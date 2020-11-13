@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "1c926a999c83c78f",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ef6f1e19526e750",
+        "type": "leaf",
+        "dimension": 50.18518518518519,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Templates/today.md",
+            "mode": "source"
+          }
+        },
+        "group": "16dad7b06175e912"
+      },
+      {
+        "id": "eb97d9ad6c912b9b",
+        "type": "leaf",
+        "dimension": 49.81481481481482,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Templates/today.md",
+            "mode": "preview"
+          }
+        },
+        "group": "16dad7b06175e912"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "82537f9395f6204d",
+    "type": "split",
+    "children": [
+      {
+        "id": "566f0d14e2fd5a05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb509f748d08a0ef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "51885e42938f1dfe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5ead1d345a3b8e40",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a36a6d4c762c48d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37b34dd7d4c50d27",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/today.md"
+              }
+            }
+          },
+          {
+            "id": "f99667ea4f5ec826",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/today.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Templates/today.md",
+    "Today/20201113.md",
+    "Today/20201028.md",
+    "Today/template.md",
+    "Templates/Untitled.md",
+    "Today/20201109.md",
+    "Today/20201110.md",
+    "Today/Untitled.md"
+  ]
+}
