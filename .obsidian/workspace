@@ -11,7 +11,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templates/today.md",
+            "file": "Today/20201114.md",
             "mode": "source"
           }
         },
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templates/today.md",
+            "file": "Today/20201114.md",
             "mode": "preview"
           }
         },
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/today.md"
+                "file": "Today/20201114.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/today.md"
+                "file": "Today/20201114.md"
               }
             }
           }
@@ -101,8 +101,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Templates/today.md",
+    "Today/20201114.md",
     "Today/20201113.md",
+    "Templates/today.md",
     "Today/20201028.md",
     "Today/template.md",
     "Templates/Untitled.md",
