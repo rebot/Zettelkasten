@@ -6,5 +6,4 @@ tags:
 public: true
 ---
 
-# Vandaag {{date:DD MMMM YYYY}}
-
+# {{date:YYYYMMDD}}{{time:HHmm}} 
