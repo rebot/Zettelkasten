@@ -6,27 +6,45 @@
       {
         "id": "a917625d54828d57",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210119.md",
+            "file": "Today/20210319.md",
             "mode": "source"
           }
         },
         "group": "74cbcfb47417916d"
       },
       {
-        "id": "701cd0430ebf3a88",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Today/20210119.md",
-            "mode": "preview"
+        "id": "4760d2a1c47d4570",
+        "type": "split",
+        "children": [
+          {
+            "id": "701cd0430ebf3a88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Today/20210319.md",
+                "mode": "preview"
+              }
+            },
+            "group": "74cbcfb47417916d"
+          },
+          {
+            "id": "8684ea34c2c5ec24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Today/20210120.md",
+                "mode": "preview"
+              }
+            }
           }
-        },
-        "group": "74cbcfb47417916d"
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -82,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today/20210119.md",
+                "file": "Today/20210319.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today/20210119.md"
+                "file": "Today/20210319.md"
               }
             }
           }
@@ -109,15 +127,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Today/20210119.md",
+    "Today/20210319.md",
     "Today/20210120.md",
+    "Today/20210119.md",
     "Today/20201114.md",
     "Today/20201113.md",
     "Today/20201110.md",
     "Today/20201109.md",
     "Today/20201028.md",
     "Today/20201115.md",
-    "register.md",
-    "Zettle/202011160040.md"
+    "register.md"
   ]
 }
