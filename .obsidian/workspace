@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210319.md",
+            "file": "Today/20210120.md",
             "mode": "source"
           }
         },
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Today/20210319.md",
+                "file": "Today/20210120.md",
                 "mode": "preview"
               }
             },
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today/20210319.md",
+                "file": "Today/20210120.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today/20210319.md"
+                "file": "Today/20210120.md"
               }
             }
           }
@@ -127,11 +127,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Today/20210120.md",
+    "Today/20210119.md",
     "Today/20210319.md",
     "Today/20210325.md",
     "Today/20210324.md",
-    "Today/20210120.md",
-    "Today/20210119.md",
     "Today/20201114.md",
     "Today/20201113.md",
     "Today/20201110.md",
