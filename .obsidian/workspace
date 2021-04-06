@@ -17,34 +17,16 @@
         "group": "74cbcfb47417916d"
       },
       {
-        "id": "4760d2a1c47d4570",
-        "type": "split",
-        "children": [
-          {
-            "id": "701cd0430ebf3a88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Today/20210403.md",
-                "mode": "preview"
-              }
-            },
-            "group": "74cbcfb47417916d"
-          },
-          {
-            "id": "8684ea34c2c5ec24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Today/20210120.md",
-                "mode": "preview"
-              }
-            }
+        "id": "701cd0430ebf3a88",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Today/20210403.md",
+            "mode": "preview"
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "74cbcfb47417916d"
       }
     ],
     "direction": "vertical"
