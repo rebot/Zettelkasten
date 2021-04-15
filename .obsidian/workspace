@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zettle/202104152101 Certificate Pinning.md",
+            "file": "Today/20210414.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zettle/202104152101 Certificate Pinning.md",
+            "file": "Today/20210414.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettle/202104152101 Certificate Pinning.md",
+                "file": "Today/20210414.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettle/202104152101 Certificate Pinning.md"
+                "file": "Today/20210414.md"
               }
             }
           }
@@ -111,15 +111,15 @@
   },
   "active": "a917625d54828d57",
   "lastOpenFiles": [
-    "Zettle/202104152101.md",
     "Today/20210414.md",
+    "Zettle/202104152101 Certificate Pinning.md",
+    "Zettle/202104152101.md",
     "Zettle/202104152035.md",
     "Today/20210403.md",
     "Today/20201114.md",
     "Today/20201110.md",
     "Today/20201109.md",
     "Today/20201028.md",
-    "Today/20210120.md",
-    "Today/20210119.md"
+    "Today/20210120.md"
   ]
 }
