@@ -6,26 +6,28 @@
       {
         "id": "a917625d54828d57",
         "type": "leaf",
+        "dimension": 57.34112490869248,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210414.md",
+            "file": "Today/20210712.md",
             "mode": "source"
           }
         },
-        "group": "74cbcfb47417916d"
+        "group": "55758d3732c84fe3"
       },
       {
-        "id": "701cd0430ebf3a88",
+        "id": "70d43880046b05e5",
         "type": "leaf",
+        "dimension": 42.65887509130752,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210414.md",
+            "file": "Today/20210712.md",
             "mode": "preview"
           }
         },
-        "group": "74cbcfb47417916d"
+        "group": "55758d3732c84fe3"
       }
     ],
     "direction": "vertical"
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today/20210414.md",
+                "file": "Today/20210712.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,8 +100,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today/20210414.md"
+                "file": "Today/20210712.md"
               }
+            }
+          },
+          {
+            "id": "8edee00798331963",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -111,15 +121,15 @@
   },
   "active": "a917625d54828d57",
   "lastOpenFiles": [
-    "Today/20210414.md",
+    "Today/20210712.md",
+    "2021-07-11.md",
+    "Untitled.md",
+    "Templates/today.md",
+    "Templates/zettle.md",
     "Huis/20210418 Omgevingsvergunning - randvoorwaarden.md",
-    "Huis/Untitled.md",
-    "Zettle/202104152101 Certificate Pinning.md",
-    "Zettle/202104152101.md",
-    "Zettle/202104152035.md",
-    "Today/20210403.md",
-    "Today/20201114.md",
-    "Today/20201110.md",
-    "Today/20201109.md"
+    "Today/20210414.md",
+    "register.md",
+    "de_tijdloze_foto.jpg",
+    "Huis/Untitled.md"
   ]
 }
