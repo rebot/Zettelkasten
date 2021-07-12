@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210712.md",
+            "file": "Zettle/202107122343 qsfdqsdfef.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210712.md",
+            "file": "Zettle/202107122343 qsfdqsdfef.md",
             "mode": "preview"
           }
         },
@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226
+    "width": 221
   },
   "right": {
     "id": "5ead1d345a3b8e40",
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today/20210712.md",
+                "file": "Zettle/202107122343 qsfdqsdfef.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today/20210712.md"
+                "file": "Zettle/202107122343 qsfdqsdfef.md"
               }
             }
           },
@@ -121,15 +121,15 @@
   },
   "active": "a917625d54828d57",
   "lastOpenFiles": [
-    "Today/20210712.md",
-    "Templates/today.md",
+    "Zettle/202107122343 qsfdqsdfef.md",
+    "Zettle/202107122343.md",
     "Templates/zettle.md",
-    "2021-07-11.md",
-    "Untitled.md",
-    "Huis/20210418 Omgevingsvergunning - randvoorwaarden.md",
-    "Today/20210414.md",
-    "register.md",
-    "de_tijdloze_foto.jpg",
-    "Huis/Untitled.md"
+    "Zettle/202107122342 qmdlfjkqsdf.md",
+    "Zettle/202107122342.md",
+    "Zettle/202107122336 Test123.md",
+    "Zettle/202107122336.md",
+    "Zettle/202107122335.md",
+    "Templates/today.md",
+    "Zettle/202107122330 dog.md"
   ]
 }
