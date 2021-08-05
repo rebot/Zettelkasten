@@ -16,5 +16,5 @@ public: true
 The following list contains an overview of all **zettels** that have been created with the **same tags** assigned.
 ```dataview
 list
-from <%+ tp.file.tags.join(' or ') %> 
+from #zettel
 ```

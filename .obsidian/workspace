@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zettle/202107122343 qsfdqsdfef.md",
+            "file": "Today/20210712.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zettle/202107122343 qsfdqsdfef.md",
+            "file": "Today/20210712.md",
             "mode": "preview"
           }
         },
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221
+    "width": 221,
+    "collapsed": true
   },
   "right": {
     "id": "5ead1d345a3b8e40",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettle/202107122343 qsfdqsdfef.md",
+                "file": "Today/20210712.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettle/202107122343 qsfdqsdfef.md"
+                "file": "Today/20210712.md"
               }
             }
           },
@@ -119,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a917625d54828d57",
+  "active": "70d43880046b05e5",
   "lastOpenFiles": [
-    "Zettle/202107122343 qsfdqsdfef.md",
-    "Zettle/202107122343.md",
-    "Templates/zettle.md",
-    "Zettle/202107122342 qmdlfjkqsdf.md",
-    "Zettle/202107122342.md",
-    "Zettle/202107122336 Test123.md",
-    "Zettle/202107122336.md",
-    "Zettle/202107122335.md",
-    "Templates/today.md",
-    "Zettle/202107122330 dog.md"
+    "Today/20210712.md",
+    "Today/20210403.md",
+    "Today/20210414.md",
+    "Today/20210120.md",
+    "Today/20210119.md",
+    "Today/20210325.md",
+    "Today/20210324.md",
+    "Today/20201115.md",
+    "Today/20201113.md",
+    "Today/20201114.md"
   ]
 }
