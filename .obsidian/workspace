@@ -6,11 +6,11 @@
       {
         "id": "a917625d54828d57",
         "type": "leaf",
-        "dimension": 57.34112490869248,
+        "dimension": 48.13205907906168,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zettle/202104152035 Virtual Private Network.md",
+            "file": "Today/20210712 Vandaag 12 juli 2021.md",
             "mode": "source"
           }
         },
@@ -19,12 +19,12 @@
       {
         "id": "70d43880046b05e5",
         "type": "leaf",
-        "dimension": 42.65887509130752,
+        "dimension": 51.86794092093832,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zettle/202104152035 Virtual Private Network.md",
-            "mode": "source"
+            "file": "Today/20210712 Vandaag 12 juli 2021.md",
+            "mode": "preview"
           }
         },
         "group": "55758d3732c84fe3"
@@ -67,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221
+    "width": 229
   },
   "right": {
     "id": "5ead1d345a3b8e40",
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettle/202104152035 Virtual Private Network.md",
+                "file": "Today/20210712 Vandaag 12 juli 2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettle/202104152035 Virtual Private Network.md"
+                "file": "Today/20210712 Vandaag 12 juli 2021.md"
               }
             }
           },
@@ -121,6 +121,8 @@
   },
   "active": "a917625d54828d57",
   "lastOpenFiles": [
+    "Today/20210712 Vandaag 12 juli 2021.md",
+    "Today/20201114 Vandaag 14 November 2020.md",
     "Zettle/202104152035 Virtual Private Network.md",
     "Zettle/202104152101 Certificate Pinning.md",
     "Today/20201028.md",
@@ -128,8 +130,6 @@
     "Today/20201110.md",
     "Today/20201113 Vandaag 13 November 2020.md",
     "Today/20201115 Vandaag 15 November 2020.md",
-    "Today/20210319 Vandaag 19 March 2021.md",
-    "Today/20210119 Vandaag 19 January 2021.md",
-    "Today/20210403 Vandaag 03 April 2021.md"
+    "Today/20210319 Vandaag 19 March 2021.md"
   ]
 }
