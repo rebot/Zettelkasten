@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210712.md",
+            "file": "Zettle/202104152035 Virtual Private Network.md",
             "mode": "source"
           }
         },
@@ -23,8 +23,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210712.md",
-            "mode": "preview"
+            "file": "Zettle/202104152035 Virtual Private Network.md",
+            "mode": "source"
           }
         },
         "group": "55758d3732c84fe3"
@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221,
-    "collapsed": true
+    "width": 221
   },
   "right": {
     "id": "5ead1d345a3b8e40",
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today/20210712.md",
+                "file": "Zettle/202104152035 Virtual Private Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today/20210712.md"
+                "file": "Zettle/202104152035 Virtual Private Network.md"
               }
             }
           },
@@ -120,17 +119,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "70d43880046b05e5",
+  "active": "a917625d54828d57",
   "lastOpenFiles": [
-    "Today/20210712.md",
-    "Today/20210403.md",
-    "Today/20210414.md",
-    "Today/20210120.md",
-    "Today/20210119.md",
-    "Today/20210325.md",
-    "Today/20210324.md",
-    "Today/20201115.md",
-    "Today/20201113.md",
-    "Today/20201114.md"
+    "Zettle/202104152035 Virtual Private Network.md",
+    "Zettle/202104152101 Certificate Pinning.md",
+    "Today/20201028.md",
+    "Today/20201109.md",
+    "Today/20201110.md",
+    "Today/20201113 Vandaag 13 November 2020.md",
+    "Today/20201115 Vandaag 15 November 2020.md",
+    "Today/20210319 Vandaag 19 March 2021.md",
+    "Today/20210119 Vandaag 19 January 2021.md",
+    "Today/20210403 Vandaag 03 April 2021.md"
   ]
 }

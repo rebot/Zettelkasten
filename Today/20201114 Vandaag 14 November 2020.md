@@ -9,7 +9,7 @@ public: true
 # Vandaag 14 November 2020
 > Raspberry Pi als PaaS - Part 2  
 
-Dit is de tweede post waarin ik op zoek ga naar een *Git repository* voor m'n notities. Zie [[20201113|Rasberry Pi als PaaS - Part 1]] voor de aanzet van de blogposts. 
+Dit is de tweede post waarin ik op zoek ga naar een *Git repository* voor m'n notities. Zie [[20201113 Vandaag 13 November 2020|Rasberry Pi als PaaS - Part 1]] voor de aanzet van de blogposts. 
 
 ## Git Repository op de Raspberry Pi
 > Tip: deze [blogpost](https://dev.to/kodaman2/setting-up-raspberry-pi-as-a-git-server-230f) bevat een overzicht van te stappen om een *Git Server* op te zetten met [gitea]. De gids bevat bovendien ook een overzicht voor het configureren van een statisch lokaal ip-adres, het gebruik van no-ip,...
