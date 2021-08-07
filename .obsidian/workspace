@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a917625d54828d57",
-        "type": "leaf",
-        "dimension": 48.13205907906168,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Today/20210712 Vandaag 12 juli 2021.md",
-            "mode": "source"
-          }
-        },
-        "group": "55758d3732c84fe3"
-      },
-      {
         "id": "70d43880046b05e5",
         "type": "leaf",
-        "dimension": 51.86794092093832,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210712 Vandaag 12 juli 2021.md",
+            "file": "Today/20210120 Vandaag 20 January 2021.md",
             "mode": "preview"
           }
-        },
-        "group": "55758d3732c84fe3"
+        }
       }
     ],
     "direction": "vertical"
@@ -83,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today/20210712 Vandaag 12 juli 2021.md",
+                "file": "Today/20210120 Vandaag 20 January 2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today/20210712 Vandaag 12 juli 2021.md"
+                "file": "Today/20210120 Vandaag 20 January 2021.md"
               }
             }
           },
@@ -119,8 +104,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a917625d54828d57",
+  "active": "70d43880046b05e5",
   "lastOpenFiles": [
+    "Today/20210120 Vandaag 20 January 2021.md",
+    "20210711.md",
     "Today/20210712 Vandaag 12 juli 2021.md",
     "Today/20201114 Vandaag 14 November 2020.md",
     "Zettle/202104152035 Virtual Private Network.md",
@@ -128,8 +115,6 @@
     "Today/20201028.md",
     "Today/20201109.md",
     "Today/20201110.md",
-    "Today/20201113 Vandaag 13 November 2020.md",
-    "Today/20201115 Vandaag 15 November 2020.md",
-    "Today/20210319 Vandaag 19 March 2021.md"
+    "Today/20201113 Vandaag 13 November 2020.md"
   ]
 }
