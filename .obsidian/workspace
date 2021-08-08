@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20210120 Vandaag 20 January 2021.md",
+            "file": "Huis/202108081607 EPB vs EPC.md",
+            "mode": "source"
+          }
+        },
+        "group": "23d9173951671e08"
+      },
+      {
+        "id": "4b5a6baaa67baea7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Huis/202108081607 EPB vs EPC.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "23d9173951671e08"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today/20210120 Vandaag 20 January 2021.md",
+                "file": "Huis/202108081607 EPB vs EPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today/20210120 Vandaag 20 January 2021.md"
+                "file": "Huis/202108081607 EPB vs EPC.md"
               }
             }
           },
@@ -106,15 +119,15 @@
   },
   "active": "70d43880046b05e5",
   "lastOpenFiles": [
+    "Huis/202108081607 EPB vs EPC.md",
+    "Zettle/202108081607.md",
+    "Huis/20210418 Omgevingsvergunning - randvoorwaarden.md",
     "Today/20210120 Vandaag 20 January 2021.md",
     "20210711.md",
     "Today/20210712 Vandaag 12 juli 2021.md",
     "Today/20201114 Vandaag 14 November 2020.md",
     "Zettle/202104152035 Virtual Private Network.md",
     "Zettle/202104152101 Certificate Pinning.md",
-    "Today/20201028.md",
-    "Today/20201109.md",
-    "Today/20201110.md",
-    "Today/20201113 Vandaag 13 November 2020.md"
+    "Today/20201028.md"
   ]
 }
