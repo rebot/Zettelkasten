@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20201113 Vandaag 13 November 2020.md",
+            "file": "Huis/202108081607 EPB vs EPC.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Today/20201113 Vandaag 13 November 2020.md",
+            "file": "Huis/202108081607 EPB vs EPC.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "textem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today/20201113 Vandaag 13 November 2020.md",
+                "file": "Huis/202108081607 EPB vs EPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,15 +118,15 @@
   },
   "active": "cd8fa2b5dbff8402",
   "lastOpenFiles": [
+    "Huis/202108081607 EPB vs EPC.md",
+    "Huis/202109202301 E-peil.md",
+    "Huis/202109210001 EPB.md",
     "Today/20201113 Vandaag 13 November 2020.md",
     "Today/20201028.md",
     "Today/20201110.md",
     "Today/20201109.md",
     "Templates/zettle.md",
     "Templates/today.md",
-    "Huis/202109210001 EPB.md",
-    "Huis/202109202301 E-peil.md",
-    "Huis/202109202208 Financiële voordelen.md",
-    "Huis/202109202157 Beschermd volume.md"
+    "Huis/202109202208 Financiële voordelen.md"
   ]
 }
