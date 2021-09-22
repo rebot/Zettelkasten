@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Huis/202109202141 IER - Ingrijpende Energetische Renovatie.md",
+            "file": "Today/20201113 Vandaag 13 November 2020.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Huis/202109202141 IER - Ingrijpende Energetische Renovatie.md",
+            "file": "Today/20201113 Vandaag 13 November 2020.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Huis/202109202141 IER - Ingrijpende Energetische Renovatie.md",
+                "file": "Today/20201113 Vandaag 13 November 2020.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,15 +117,15 @@
   },
   "active": "cd8fa2b5dbff8402",
   "lastOpenFiles": [
-    "Huis/202109202141 IER - Ingrijpende Energetische Renovatie.md",
-    "Huis/202109202157 Beschermd volume.md",
-    "Huis/202109202152 Scheidingsconstructie.md",
+    "Today/20201113 Vandaag 13 November 2020.md",
+    "Today/20201028.md",
     "Today/20201110.md",
-    "Huis/202109202136 BEN - Bijna-EnergieNeutraal bouwen.md",
-    "Huis/202109202157.md",
-    "202109202152 Scheidingsconstructie.md",
-    "Untitled.md",
-    "Huis/Untitled.md",
-    "Huis/202108081607 EPB vs EPC.md"
+    "Today/20201109.md",
+    "Templates/zettle.md",
+    "Templates/today.md",
+    "Huis/202109210001 EPB.md",
+    "Huis/202109202301 E-peil.md",
+    "Huis/202109202208 Financiële voordelen.md",
+    "Huis/202109202157 Beschermd volume.md"
   ]
 }
