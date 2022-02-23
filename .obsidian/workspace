@@ -9,125 +9,80 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zettle/202110102251 BIMServer.md",
-            "mode": "source"
+            "file": "Zettle/202202231206 Demo.md",
+            "mode": "preview",
+            "source": true
           }
-        },
-        "group": "23d9173951671e08"
-      },
-      {
-        "id": "4b5a6baaa67baea7",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Zettle/202110102251 BIMServer.md",
-            "mode": "preview"
-          }
-        },
-        "group": "23d9173951671e08"
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "82537f9395f6204d",
-    "type": "split",
+    "id": "03977d937556765d",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "566f0d14e2fd5a05",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fb509f748d08a0ef",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "51885e42938f1dfe",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "eb638f10bbc63d5f",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "2340358a3e9515d5",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 422
+    "currentTab": 0
   },
   "right": {
-    "id": "5ead1d345a3b8e40",
-    "type": "split",
+    "id": "894ec4ec4e250bb6",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "3a36a6d4c762c48d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "37b34dd7d4c50d27",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Zettle/202110102251 BIMServer.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f99667ea4f5ec826",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Zettle/202110102251 BIMServer.md"
-              }
-            }
-          },
-          {
-            "id": "8edee00798331963",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
+        "id": "9312b2ac777af0b6",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Zettle/202202231206 Demo.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "70d43880046b05e5",
   "lastOpenFiles": [
+    "Zettle/202202231206 Demo.md",
+    "Zettle/202104152101 Certificate Pinning.md",
+    "Zettle/202110102130 SSH Tunneling.md",
+    "Zettle/202104152035 Virtual Private Network.md",
     "Zettle/202110102251 BIMServer.md",
     "Zettle/202110102251.md",
-    "Zettle/202110102130 SSH Tunneling.md",
-    "Zettle/202104152101 Certificate Pinning.md",
     "Zettle/202110102130.md",
     "Huis/202108081702 Houtverbinding.md",
     "Huis/202108081607 EPB vs EPC.md",
-    "Zettle/202108081607.md",
-    "Huis/20210418 Omgevingsvergunning - randvoorwaarden.md",
-    "Today/20210120 Vandaag 20 January 2021.md"
+    "Zettle/202108081607.md"
   ]
 }
