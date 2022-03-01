@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zettle/202202231206 Demo.md",
-            "mode": "preview",
-            "source": true
+            "file": "Zettle/202203011555 Obsidian setup.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -58,7 +58,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Zettle/202202231206 Demo.md",
+            "file": "Zettle/202203011555 Obsidian setup.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -68,21 +68,33 @@
             "unlinkedCollapsed": true
           }
         }
+      },
+      {
+        "id": "adcc974c8a864b94",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Zettle/202203011555 Obsidian setup.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
       }
     ],
     "currentTab": 0
   },
   "active": "70d43880046b05e5",
   "lastOpenFiles": [
+    "Zettle/202203011555 Obsidian setup.md",
+    "Untitled.md",
+    "Zettle/202104152035 Virtual Private Network.md",
     "Zettle/202202231206 Demo.md",
     "Zettle/202104152101 Certificate Pinning.md",
     "Zettle/202110102130 SSH Tunneling.md",
-    "Zettle/202104152035 Virtual Private Network.md",
     "Zettle/202110102251 BIMServer.md",
     "Zettle/202110102251.md",
     "Zettle/202110102130.md",
-    "Huis/202108081702 Houtverbinding.md",
-    "Huis/202108081607 EPB vs EPC.md",
-    "Zettle/202108081607.md"
+    "Huis/202108081702 Houtverbinding.md"
   ]
 }
