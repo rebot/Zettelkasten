@@ -21,8 +21,19 @@ A **CDN** or *Content Delivery Network* is used to store and optimize the images
 
 To upload an image, the following command can be used. 
 ```bash
-curl https://api.cloudinary.com/v1_1/demo/image/upload -X POST --data 'file=https://upload.wikimedia.org/wikipedia/commons/a/ae/Olympic_flag.jpg&public_id=olympic_flag&timestamp=12345678&api_key=98765432&signature=a123456f987664af'
+curl -X "POST" "https://api.cloudinary.com/v1_1/gilles-is/image/upload" \
+     -H 'Content-Type: multipart/form-data; charset=utf-8; boundary=<MULTIPART-BOUNDARY>' \
+     -F "file=<IMAGE-CONTENT>" \
+     -F "upload_preset=obsidian"
 ```
+
+The *Obsidian.md* plugin [obsidian-image-uploader](https://github.com/Creling/obsidian-image-uploader) is used and configured to use *Cloudinary* to upload images and replace the local reference with the `uri` of the uploaded file. In the *Managment Console* of *Cloudinary* a "Upload preset" is configured using the name **obsidian** and mode **Unsigned**, which means no authorization is required to upload images to *Cloudinary*. 
+
+![[Pasted image 20220302154600.png]]
+
+The following settings are applied in *Obsidian.md*
+
+![[Pasted image 20220302155346.png]]  
 
 ## Similar story?
 The following list contains an overview of all **zettels** that have been created with the **same tags** assigned.

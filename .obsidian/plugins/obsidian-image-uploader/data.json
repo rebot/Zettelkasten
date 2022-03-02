@@ -1,0 +1,8 @@
+{
+  "apiEndpoint": "https://api.cloudinary.com/v1_1/gilles-is/image/upload",
+  "uploadHeader": "{}",
+  "uploadBody": "{\n    \"file\": \"$FILE\",\n    \"upload_preset\":\"obsidian\"\n}",
+  "imageUrlPath": "url",
+  "maxWidth": 4096,
+  "enableResize": false
+}

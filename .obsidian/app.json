@@ -1,5 +1,5 @@
 {
-  "communityPluginSortOrder": "release",
+  "communityPluginSortOrder": "download",
   "attachmentFolderPath": "assets/img",
   "mobileToolbarCommands": [
     "editor:insert-wikilink",
@@ -24,5 +24,7 @@
     "editor:redo",
     "editor:toggle-keyboard",
     "editor:configure-toolbar"
-  ]
+  ],
+  "legacyEditor": true,
+  "livePreview": true
 }
