@@ -9,8 +9,13 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< Updated upstream
             "file": "Zettle/202202231304 Hello world.md",
             "mode": "preview",
+=======
+            "file": "Zettle/202203011555 Obsidian setup.md",
+            "mode": "source",
+>>>>>>> Stashed changes
             "source": false
           }
         }
@@ -53,6 +58,7 @@
     "type": "mobile-drawer",
     "children": [
       {
+<<<<<<< Updated upstream
         "id": "0cb073d77a4af639",
         "type": "leaf",
         "state": {
@@ -78,6 +84,39 @@
             "file": "Zettle/202202231304 Hello world.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
+=======
+        "id": "3cd0bb83872e7dc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71efc474ad2c3216",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Zettle/202203011555 Obsidian setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9dc45f74bf13899c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Zettle/202203011555 Obsidian setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+>>>>>>> Stashed changes
           }
         }
       }
@@ -86,6 +125,7 @@
   },
   "active": "a0831482ab333da6",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Zettle/202202231304 Hello world.md",
     "de_tijdloze_foto.jpg.md",
     "Zettle/202110102130 SSH Tunneling.md",
@@ -96,5 +136,17 @@
     "Zettle/202203011555 Obsidian setup.md",
     "Zettle/202202231206 Demo.md",
     "Untitled.md"
+=======
+    "Zettle/202203011555 Obsidian setup.md",
+    "Zettle/202202231206 Demo.md",
+    "Zettle/202202231304 Hello world.md",
+    "Untitled.md",
+    "Zettle/202104152035 Virtual Private Network.md",
+    "Zettle/202104152101 Certificate Pinning.md",
+    "Zettle/202110102130 SSH Tunneling.md",
+    "Zettle/202110102251 BIMServer.md",
+    "Zettle/202110102251.md",
+    "Zettle/202110102130.md"
+>>>>>>> Stashed changes
   ]
 }

@@ -27,16 +27,17 @@ __export(exports, {
   default: () => main_default
 });
 var import_obsidian = __toModule(require("obsidian"));
-var formData = new FormData();
-formData.append("upload_preset", "obsidian");
 var DEFAULT_SETTINGS = {
   services: [{
     name: "Sample service",
     uri: "https://api.cloudinary.com/v1_1/gilles-is/image/upload",
-    headers: {
+    headers: JSON.stringify({
       "User-Agent": "Obsidian.md"
-    },
-    body: formData
+    }, null, 2),
+    body: JSON.stringify({
+      file: "{file}",
+      upload_preset: "obsidian"
+    })
   }]
 };
 var ObsidianUploadAttachment = class extends import_obsidian.Plugin {
@@ -83,8 +84,16 @@ var main_default = ObsidianUploadAttachment;
 var ServiceModal = class extends import_obsidian.Modal {
   constructor(app, service, onSubmit) {
     super(app);
-    this.service = service;
+    this.service = Object.assign({}, service);
     this.onSubmit = onSubmit;
+  }
+  prettyPrintJSON(s) {
+    try {
+      const json = JSON.parse(s);
+      return JSON.stringify(json, null, 2);
+    } catch {
+      return s;
+    }
   }
   onOpen() {
     let {contentEl} = this;
@@ -109,8 +118,8 @@ var ServiceModal = class extends import_obsidian.Modal {
     const descHeaders = document.createDocumentFragment();
     descHeaders.append("Add authentication headers or other required headers in a ", descHeaders.createEl("strong", {text: "JSON "}), "format.");
     new import_obsidian.Setting(contentEl).setName("Headers").setDesc(descHeaders).addTextArea((text) => {
-      text.setPlaceholder("headers").setValue(JSON.stringify(this.service.headers, null, 2)).onChange(async (value) => {
-        this.service.headers = JSON.parse(value);
+      text.setPlaceholder("headers").setValue(this.prettyPrintJSON(this.service.headers)).onChange(async (value) => {
+        this.service.headers = value;
       });
       text.inputEl.rows = 5;
       text.inputEl.cols = 50;
@@ -118,11 +127,36 @@ var ServiceModal = class extends import_obsidian.Modal {
     const descBody = document.createDocumentFragment();
     descBody.append("The body is sent using ", descBody.createEl("code", {text: "multipart/form-data"}), " . Depending on the service, it might be required to pass ", descBody.createEl("strong", {text: "additional form-data "}), "to the service in order to authenticate.");
     new import_obsidian.Setting(contentEl).setName("Body").setDesc(descBody).addTextArea((text) => {
-      text.setPlaceholder("body").setValue(JSON.stringify(this.service.body, null, 2)).onChange(async (value) => {
-        this.service.body = JSON.parse(value);
+      text.setPlaceholder("body").setValue(this.prettyPrintJSON(this.service.body)).onChange(async (value) => {
+        this.service.body = value;
       });
       text.inputEl.rows = 5;
       text.inputEl.cols = 50;
+    });
+    new import_obsidian.Setting(contentEl).addButton((cb) => {
+      cb.setButtonText("cancel").onClick(() => {
+        this.close();
+      });
+    }).addButton((cb) => {
+      cb.setButtonText("test").onClick(async () => {
+        const imageUri = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAApgAAAKYB3X3/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII=";
+        const imageRespons = await fetch(imageUri);
+        const blob = await imageRespons.blob();
+        const file = new File([blob], "Sample image", {type: "image/png"});
+        this.service.body.append("file", file);
+        const resp = await fetch(this.service.uri, {
+          method: "POST",
+          headers: this.service.headers,
+          body: this.service.body
+        });
+        const json = await resp.json();
+        console.log(JSON.stringify(json, null, 2));
+      });
+    }).addButton((cb) => {
+      cb.setButtonText("save").onClick(() => {
+        this.onSubmit(this.service);
+        this.close();
+      });
     });
   }
   onClose() {
@@ -173,7 +207,11 @@ var SettingTab = class extends import_obsidian.PluginSettingTab {
       descService.append(descService.createEl("strong", {text: service.name.charAt(0).toUpperCase() + service.name.slice(1)}));
       const s = new import_obsidian.Setting(this.containerEl).setDesc(descService).addExtraButton((cb) => {
         cb.setIcon("pencil").setTooltip("Open settings").onClick(() => {
-          new ServiceModal(this.app, service, (service2) => this.plugin.saveSettings()).open();
+          new ServiceModal(this.app, service, (service2) => {
+            this.plugin.settings.services[index] = service2;
+            this.plugin.saveSettings();
+            this.display();
+          }).open();
         });
       }).addExtraButton((cb) => {
         cb.setIcon("documents").setTooltip("Duplicate service").onClick(() => {

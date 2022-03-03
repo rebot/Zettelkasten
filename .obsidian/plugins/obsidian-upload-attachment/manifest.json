@@ -1,7 +1,7 @@
 {
     "id": "obsidian-upload-attachment",
-    "name": "Obsidian Upload Attachment",
-    "description": "Upload attachments to a data bucket / CDN / ...",
+    "name": "Upload Attachment",
+    "description": "Distribute and upload attachments based on its mime-type to online services",
     "author": "rebot",
     "authorUrl": "gilles.is",
     "isDesktopOnly": false,
