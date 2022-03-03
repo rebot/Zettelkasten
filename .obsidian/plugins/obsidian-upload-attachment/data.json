@@ -1,8 +1,10 @@
 {
-    "services": [{
-        "name": "Cloudinary 2",
-        "uri": "https://api.cloudinary.com/v1_1/gilles-is/image/upload",
-        "headers": "{\n   }",
-        "body": "{\n  \"file\": \"$FILE\",\n  \"upload_preset\": \"another\"\n}"
-    }]
+  "services": [
+    {
+      "name": "Cloudinary",
+      "uri": "https://api.cloudinary.com/v1_1/gilles-is/image/upload",
+      "headers": "{\n   }",
+      "body": "{\n  \"file\": \"$FILE\",\n  \"upload_preset\": \"obsidian\"\n}"
+    }
+  ]
 }

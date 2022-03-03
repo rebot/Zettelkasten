@@ -1,21 +1,16 @@
 {
   "main": {
-    "id": "1c926a999c83c78f",
+    "id": "775e26e80716edf0",
     "type": "split",
     "children": [
       {
-        "id": "a0831482ab333da6",
+        "id": "bf2eeca2976b5a3b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< Updated upstream
-            "file": "Zettle/202202231304 Hello world.md",
-            "mode": "preview",
-=======
             "file": "Zettle/202203011555 Obsidian setup.md",
-            "mode": "source",
->>>>>>> Stashed changes
+            "mode": "preview",
             "source": false
           }
         }
@@ -24,11 +19,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b4b3f9edcda09a88",
+    "id": "378b54433f1e2ffc",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "d2ce4336c6a6fc3d",
+        "id": "f4fa164d8a1590a7",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -36,12 +31,12 @@
         }
       },
       {
-        "id": "07de64e336f573e0",
+        "id": "2f77375205baf4a7",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#SSH",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -54,17 +49,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "aa6f1111b8587301",
+    "id": "21f0a6849c851c2b",
     "type": "mobile-drawer",
     "children": [
       {
-<<<<<<< Updated upstream
-        "id": "0cb073d77a4af639",
+        "id": "66357f1323431ae8",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Zettle/202202231304 Hello world.md",
+            "file": "Zettle/202203011555 Obsidian setup.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -76,77 +70,22 @@
         }
       },
       {
-        "id": "b3f09ec8f0366efe",
+        "id": "67991722173dadaa",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Zettle/202202231304 Hello world.md",
+            "file": "Zettle/202203011555 Obsidian setup.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-=======
-        "id": "3cd0bb83872e7dc7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "71efc474ad2c3216",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Zettle/202203011555 Obsidian setup.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "9dc45f74bf13899c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Zettle/202203011555 Obsidian setup.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
->>>>>>> Stashed changes
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "a0831482ab333da6",
+  "active": "bf2eeca2976b5a3b",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "Zettle/202202231304 Hello world.md",
-    "de_tijdloze_foto.jpg.md",
-    "Zettle/202110102130 SSH Tunneling.md",
-    "Zettle/202104152101 Certificate Pinning.md",
-    "Zettle/202104152035 Virtual Private Network.md",
-    "Huis/202109181745 Soortelijke warmte.md",
-    "Huis/202109181752 Warmtecapaciteit.md",
-    "Zettle/202203011555 Obsidian setup.md",
-    "Zettle/202202231206 Demo.md",
-    "Untitled.md"
-=======
-    "Zettle/202203011555 Obsidian setup.md",
-    "Zettle/202202231206 Demo.md",
-    "Zettle/202202231304 Hello world.md",
-    "Untitled.md",
-    "Zettle/202104152035 Virtual Private Network.md",
-    "Zettle/202104152101 Certificate Pinning.md",
-    "Zettle/202110102130 SSH Tunneling.md",
-    "Zettle/202110102251 BIMServer.md",
-    "Zettle/202110102251.md",
-    "Zettle/202110102130.md"
->>>>>>> Stashed changes
+    "Zettle/202203011555 Obsidian setup.md"
   ]
 }
