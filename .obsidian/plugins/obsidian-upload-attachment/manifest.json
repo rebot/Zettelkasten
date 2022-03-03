@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-upload-attachment",
+    "name": "Obsidian Upload Attachment",
+    "description": "Upload attachments to a data bucket / CDN / ...",
+    "author": "rebot",
+    "authorUrl": "gilles.is",
+    "isDesktopOnly": false,
+    "minAppVersion": "0.11.0",
+    "version": "0.0.1"
+}

@@ -35,6 +35,14 @@ The following settings are applied in *Obsidian.md*
 
 ![[Pasted image 20220302155346.png]]  
 
+```ad-warning
+title:[obsidian-image-uploader](https://github.com/Creling/obsidian-image-uploader) not working
+The plugin is not working in the new editor (CodeMirror 6)
+```
+
+To make the plugin working, the guideline and insights at 
+[Github](https://github.com/nothingislost/obsidian-cm6-attributes) should be followed. See the [CodeMirror](https://codemirror.net/6/docs/guide/) documentation as well. Another, more popular plugin, also suffered from compatibility issues after updating to the new editor (CodeMirror 6). The issue is discussed [here](https://github.com/gavvvr/obsidian-imgur-plugin/issues/20).
+
 ## Similar story?
 The following list contains an overview of all **zettels** that have been created with the **same tags** assigned.
 ```dataview

@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "Zettle/202202231304 Hello world.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -101,8 +102,8 @@
   "active": "a0831482ab333da6",
   "lastOpenFiles": [
     "Zettle/202202231304 Hello world.md",
-    "Zettle/202202231206 Demo.md",
     "Zettle/202203011555 Obsidian setup.md",
+    "Zettle/202202231206 Demo.md",
     "Untitled.md",
     "Zettle/202104152035 Virtual Private Network.md",
     "Zettle/202104152101 Certificate Pinning.md",

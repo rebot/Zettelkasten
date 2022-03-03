@@ -1,0 +1,13 @@
+{
+  "services": [
+    {
+      "name": "Sample service",
+      "uri": "https://api.cloudinary.com/v1_1/gilles-is/image/upload",
+      "headers": {
+        "User-Agent": "Obsidian.md"
+      },
+      "body": {}
+    }
+  ],
+  "mySetting": "qsdfdsfsqdf"
+}

@@ -25,6 +25,6 @@
     "editor:toggle-keyboard",
     "editor:configure-toolbar"
   ],
-  "legacyEditor": true,
+  "legacyEditor": false,
   "livePreview": true
 }
