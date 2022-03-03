@@ -1,7 +1,29 @@
 {
   "services": [
     {
-      "name": "Sample service",
+      "name": "Test 123",
+      "uri": "https://api.cloudinary.com/v1_1/gilles-is/image/upload",
+      "headers": {
+        "User-Agent": "Obsidian.md"
+      },
+      "body": {}
+    },
+    {
+      "name": "",
+      "uri": "",
+      "headers": {},
+      "body": {}
+    },
+    {
+      "name": "Test 123",
+      "uri": "https://api.cloudinary.com/v1_1/gilles-is/image/upload",
+      "headers": {
+        "User-Agent": "Obsidian.md"
+      },
+      "body": {}
+    },
+    {
+      "name": "Test 123",
       "uri": "https://api.cloudinary.com/v1_1/gilles-is/image/upload",
       "headers": {
         "User-Agent": "Obsidian.md"
