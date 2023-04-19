@@ -4,6 +4,7 @@
   "switcher",
   "graph",
   "backlink",
+  "canvas",
   "outgoing-link",
   "page-preview",
   "note-composer",
@@ -12,6 +13,5 @@
   "markdown-importer",
   "zk-prefixer",
   "word-count",
-  "open-with-default-app",
   "file-recovery"
 ]

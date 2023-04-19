@@ -26,5 +26,7 @@
     "editor:configure-toolbar"
   ],
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "showInlineTitle": false,
+  "showFrontmatter": false
 }

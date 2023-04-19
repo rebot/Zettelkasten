@@ -1,5 +1,7 @@
 {
   "baseFontSize": 16,
   "theme": "moonstone",
-  "cssTheme": "Minimal"
+  "cssTheme": "Typora-Vue",
+  "accentColor": "#2b5891",
+  "translucency": false
 }
