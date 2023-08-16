@@ -6,12 +6,12 @@ title: Today <% tp.date.now("YYYY-MM-DD") %>
 slug: <% tp.date.now("YYYY-MM-DD") %>
 date: <% tp.date.now("YYYY-MM-DD") %>
 tags: <% tag %><% tp.file.cursor(1) %>
+template: <% tp.config.template_file.title %>
 public: true
 ---
+# <% tp.date.now("dddd MMMM Do, YYYY") %>
+#note/daily #mood/<% tp.system.suggester(["Happy", "Sad", "Confused", "Boring", "Indifferent", "Eager"], ["happy", "sad", "confused", "boring", "indifferent", "eager"], placeholder="indifferent") %> #<% tag %>
 
-# Today <% tp.date.now("YYYY-MM-DD") %>
-#note/daily #mood/<% tp.system.suggester(["Happy", "Sad", "Confused", "Boring", "Indifferent", "Eager"], ["happy", "sad", "confused", "boring", "indifferent", "eager"], placeholder="indifferent") %>
-<< [[<% tp.date.now("YYYYMMDD", -1) %>]] | [[<% tp.date.now("YYYYMMDD", 1) %>]] >>
 ## <% tp.file.cursor(2) %>
 
 ## What's going on?

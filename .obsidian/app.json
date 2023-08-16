@@ -28,5 +28,6 @@
   "legacyEditor": false,
   "livePreview": true,
   "showInlineTitle": false,
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "alwaysUpdateLinks": true
 }

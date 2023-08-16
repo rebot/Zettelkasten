@@ -19,8 +19,8 @@
       "template": "Templates/today.md"
     },
     {
-      "folder": "Zettle",
-      "template": "Templates/zettle.md"
+      "folder": "Leaves",
+      "template": "Templates/leaf.md"
     }
   ],
   "syntax_highlighting": true,
@@ -29,5 +29,6 @@
   ],
   "startup_templates": [
     ""
-  ]
+  ],
+  "enable_ribbon_icon": true
 }

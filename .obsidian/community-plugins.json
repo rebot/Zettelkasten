@@ -3,11 +3,13 @@
   "templater-obsidian",
   "obsidian-admonition",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-image-uploader",
   "hot-reload",
-  "obsidian-upload-attachment",
   "obsidian-excalidraw-plugin",
   "obsidian-style-settings",
   "obsidian-emoji-toolbar",
-  "obsidian-git"
+  "obsidian-git",
+  "table-editor-obsidian",
+  "make-md",
+  "obsidian-text-expander-js",
+  "highlightr-plugin"
 ]
